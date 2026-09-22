@@ -207,7 +207,7 @@ my-video-project/
 ```
 hve-spielberg/
 ├── SKILL.md                       # Orchestrator entry point (read first)
-├── CLAUDE.md                      # Codebase guide for Claude Code sessions editing this repo
+├── AGENTS.md                      # Codebase guide for AI coding sessions editing this repo
 ├── workflows/                     # The 6-phase pipeline, one file per phase
 │   ├── phase-0-discovery.md
 │   ├── phase-1-storytelling.md

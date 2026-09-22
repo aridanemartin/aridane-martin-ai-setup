@@ -71,7 +71,7 @@ DevTools screenshots and screencast clips.
   preconditions, and the edge-case matrix.
 - `README.md` prerequisites table — concrete install commands and a link
   to the new pattern doc.
-- `patterns/INDEX.md` and `CLAUDE.md` — register the new pattern doc and
+- `patterns/INDEX.md` and `AGENTS.md` — register the new pattern doc and
   template so future editing sessions find them.
 
 ### Fixed
@@ -121,7 +121,7 @@ DevTools screenshots and screencast clips.
   `gsap@3.14.2` from jsDelivr (4 templates, the phase-3/phase-4 skeletons, and
   all `example/` scenes) now carries `integrity="sha384-…" crossorigin="anonymous"`,
   so a tampered CDN response is rejected by the browser instead of executing in
-  `preview`/render. `CLAUDE.md` documents the hash-recompute step required on any
+  `preview`/render. `AGENTS.md` documents the hash-recompute step required on any
   future GSAP version bump.
 
 ### Unchanged (by design)
@@ -144,7 +144,7 @@ tutorial content mode. Released via [PR #2](https://github.com/nebrass/hve-spiel
   + GSAP timelines registered on `window.__timelines`) replaces Remotion JSX
   compositions. Phase contracts (the `continue`/`jump` detection logic,
   prerequisite lists, project-structure diagrams) updated end-to-end across
-  `SKILL.md`, `CLAUDE.md`, and `.github/copilot-instructions.md`.
+  `SKILL.md`, `AGENTS.md`, and `.github/copilot-instructions.md`.
 - Phase 2 capture contract generalized from "screenshots" to **capture
   artifacts** (`public/screenshots/` and/or `public/clips/`).
 - `patterns/visual-patterns.md` fully rewritten for GSAP — adds the
@@ -181,7 +181,7 @@ tutorial content mode. Released via [PR #2](https://github.com/nebrass/hve-spiel
 - `example/` — a self-contained reference promo project built by the pipeline
   itself (storyboard, design seed, 5 scene HTMLs, `voiceover.py`,
   `example/README.md` reproduction guide).
-- `CLAUDE.md` — codebase guide for future Claude Code sessions, and a top-level
+- `AGENTS.md` — codebase guide for future AI coding sessions, and a top-level
   `.gitignore`.
 - Opt-in clip-own audio mixed under a ducked voiceover (sidechain) in Phase 5,
   with an ffprobe gate proving it reaches `out/final.mp4`.

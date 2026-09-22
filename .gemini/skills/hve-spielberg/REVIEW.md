@@ -28,7 +28,7 @@ This branch migrates the rendering engine from Remotion (React/JSX) to HyperFram
 
 | Area | Change | Quality |
 |---|---|---|
-| Engine | Remotion → HyperFrames; phase contract updated in `SKILL.md` | Coherent. File-presence contract holds across `SKILL.md`, both `CLAUDE.md` files, and the workflows. |
+| Engine | Remotion → HyperFrames; phase contract updated in `SKILL.md` | Coherent. File-presence contract holds across `SKILL.md`, the `AGENTS.md` file, and the workflows. |
 | Visual identity | 3-strategy picker (vendored brand / HF style / screenshot derivation) in `workflows/phase-1-storytelling.md` | Strongest part of the diff. Path A → Path C falls back gracefully. |
 | Vendored brands | 10 new `design-systems/<slug>/DESIGN.md` files, each ~70–110 lines | Genuinely brand-specific. `CONTRIBUTING.md` codifies the bar (motion-section fail-state test). |
 | Patterns | 3 new files: `anti-slop.md`, `marker-highlight.md`, `transition-catalog.md`. `INDEX.md` is the wayfinding map. | Detailed and useful. Inconsistencies with the example and with `metallic-swoosh.md` flagged below. |
