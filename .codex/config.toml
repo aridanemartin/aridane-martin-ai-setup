@@ -1,0 +1,23 @@
+# Codex CLI configuration. Replace ${CONTEXT7_API_KEY} with your key.
+
+model = "gpt-5.6-terra"
+model_reasoning_effort = "high"
+approvals_reviewer = "user"
+
+[mcp_servers.context7]
+command = "npx"
+args = ["-y", "@upstash/context7-mcp@latest"]
+
+[mcp_servers.context7.env]
+CONTEXT7_API_KEY = "${CONTEXT7_API_KEY}"
+
+[mcp_servers.chrome-devtools]
+command = "npx"
+args = ["chrome-devtools-mcp@latest"]
+
+[mcp_servers.playwright]
+command = "npx"
+args = ["@playwright/mcp@latest"]
+
+[features]
+hooks = true

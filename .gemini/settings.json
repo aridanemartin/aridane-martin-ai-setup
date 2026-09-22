@@ -1,0 +1,11 @@
+{
+  "userSettings": {
+    "globalPermissionGrants": {
+      "allow": [
+        "command(npm install)",
+        "command(npm run)"
+      ]
+    },
+    "themeMode": "THEME_MODE_DARK"
+  }
+}
