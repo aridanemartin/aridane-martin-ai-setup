@@ -6,7 +6,7 @@
       "name": "NaN",
       "options": {
         "baseURL": "https://api.nan.builders/v1",
-        "apiKey": "${NAN_API_KEY}"
+        "apiKey": "{env:NAN_API_KEY}"
       }
     }
   },
@@ -32,7 +32,7 @@
       "type": "remote",
       "url": "https://mcp.context7.com/mcp",
       "headers": {
-        "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
+        "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
       },
       "enabled": true
     },
